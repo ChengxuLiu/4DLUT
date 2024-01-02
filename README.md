@@ -11,7 +11,7 @@ This is the official PyTorch implementation of the paper [4D LUT: Learnable Cont
 ## Requirements and dependencies
 * CUDA 11.4
 * GCC 7.5.0
-* python 3.6 (recommend to use [Anaconda](https://www.anaconda.com/))
+* python 3.8 (recommend to use [Anaconda](https://www.anaconda.com/))
 * pytorch == 1.9.0
 * torchvision == 0.10.0
 
@@ -26,7 +26,7 @@ cd 4DLUT
 cd quadrilinear_cpp
 sh setup.sh
 ```
-3. Prepare training dataset and modify "datasetPath" in `./dataset.py`
+3. Prepare training dataset and modify dataset path in `./dataset.py`
 4. Run training
 ```
 python train.py
@@ -52,4 +52,6 @@ If you find the code and pre-trained models useful for your research, please con
 If you meet any problems, please describe them in issues or contact:
 * Chengxu Liu: <liuchx97@gmail.com>
 
+## Acknowledgement
+The code of 4DLUT is built upon [Image-Adaptive-3DLUT](https://github.com/HuiZeng/Image-Adaptive-3DLUT), and we express our gratitude to these awesome projects.
 
