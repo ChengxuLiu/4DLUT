@@ -35,7 +35,7 @@ parser.add_argument("--lambda_smooth", type=float, default=0.0001, help="smooth 
 parser.add_argument("--lambda_monotonicity", type=float, default=10.0, help="monotonicity regularization")
 parser.add_argument("--n_cpu", type=int, default=1, help="number of cpu threads to use during batch generation")
 parser.add_argument("--checkpoint_interval", type=int, default=1, help="interval between model checkpoints")
-parser.add_argument("--output_dir", type=str, default="LUTs/paired/fiveK_randomp_exp1_test1", help="path to save model")
+parser.add_argument("--output_dir", type=str, default="LUTs/fiveK", help="path to save model")
 opt = parser.parse_args()
 
 opt.output_dir = opt.output_dir + '_' + opt.input_color_space
