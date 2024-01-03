@@ -35,7 +35,7 @@ python train.py
 
 
 ## Citation
-If you find the code and pre-trained models useful for your research, please consider citing our paper. :blush:
+If you find the code useful for your research, please consider citing our paper. :blush:
 ```
 @article{liu20234d,
   title={4D LUT: learnable context-aware 4d lookup table for image enhancement},
